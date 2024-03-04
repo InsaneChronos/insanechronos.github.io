@@ -37,6 +37,8 @@ if (window.innerHeight > window.innerWidth) {
 	for (var i = 0; i < card.length; i++ )
 		{
 		card[i].style.width = "80%";
+		card[i].style.flexDirection = "column";
+		card[i].style.alignItems = "center";
 		}
 
 	var logo = document.getElementsByClassName("project-logo");
