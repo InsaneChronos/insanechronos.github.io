@@ -1,0 +1,248 @@
+html, body {
+	position: relative;
+	height: 100%;
+	}
+
+body {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/bg.png) center no-repeat #070B0C;
+	background-size: cover;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+	}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: transparent;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	}
+
+.swiper-pagination-bullet {
+	width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 14px)) !important;
+	height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 14px)) !important;
+	background: transparent !important;
+	border: 2px solid #FFF;
+	opacity: 1 !important;
+	}
+
+.swiper-pagination-bullet-active {
+	width: var(--swiper-pagination-bullet-active-width, var(--swiper-pagination-bullet-active-size, 18px)) !important;
+	height: var(--swiper-pagination-bullet-active-height, var(--swiper-pagination-bullet-active-size, 18px)) !important;
+	background: linear-gradient(to top, #B18840, #FDE88A) !important;
+	border: none;
+	}
+
+.swiper-slide table {
+	width: 700px;
+	height: 300px;
+	border-collapse: collapse;
+	}
+
+#cover {
+	flex-direction: column;
+	justify-content: space-evenly;
+	}
+
+#logo {
+	width: 700px;
+	height: 288px;
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/logo.png) center no-repeat;
+	background-size: contain;
+	margin-top: 0px;
+	}
+
+#social {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	}
+
+#social a {
+	width: 70px;
+	height: 70px;
+	clip-path: polygon(50% 0, 50% 0, 100% 50%, 50% 100%, 50% 100%, 0% 50%);
+	}
+
+#vk-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/vk-logo.svg) center no-repeat, linear-gradient(to top, #B18840, #FDE88A);
+	background-size: cover;
+	}
+
+#vk-logo:hover {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/vk-logo.svg) center no-repeat #FFFFFF;
+	background-size: cover;
+	}
+
+#tg-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/tg-logo.svg) center no-repeat, linear-gradient(to top, #B18840, #FDE88A);
+	background-size: cover;
+	}
+
+#tg-logo:hover {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/tg-logo.svg) center no-repeat #FFFFFF;
+	background-size: cover;
+	}
+
+#git-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/git-logo.svg) center no-repeat, linear-gradient(to top, #B18840, #FDE88A);
+	background-size: cover;
+	}
+
+#git-logo:hover {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/git-logo.svg) center no-repeat #FFFFFF;
+	background-size: cover;
+	}
+
+#pen-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/pen-logo.svg) center no-repeat, linear-gradient(to top, #B18840, #FDE88A);
+	background-size: cover;
+	}
+
+#pen-logo:hover {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/pen-logo.svg) center no-repeat #FFFFFF;
+	background-size: cover;
+	}
+
+.project-title {
+	width: 700px;
+	height: 50px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+	font-family: Calibri;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: linear-gradient(to top, #B18840, #FDE88A);
+	border-radius: 10px;
+	}
+
+.project-logo {
+	aspect-ratio: 1;
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	}
+
+.project-card {
+	width: 700px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	}
+
+.project-info {
+	width: 400px;
+	min-height: 300px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+
+.project-info ul {
+	list-style: circle;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 0;
+	}
+
+.project-info ul li {
+	padding: 10px 0;
+	border-bottom: 1px dashed #B18840;
+	}
+
+.project-info ul li:first-child {
+	padding: 0 0 10px 0;
+	}
+
+.project-info ul li a {
+	color: #B18840;
+	text-decoration: none;
+	}
+
+.project-info ul li a:hover {
+	color: #FDE88A;
+	}
+
+.project-link {
+	height: 50px;
+	background: linear-gradient(to top, #B18840, #FDE88A);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	color: #000000;
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0 0 0 15px;
+	}
+
+.project-link:hover {
+	background: #FFFFFF;
+	}
+
+.arrow {
+	position: relative;
+	left: 10px;
+	transition: .25s;
+	}
+
+.project-link:hover .arrow {
+	left: 15px;
+	transition: .25s;
+	}
+
+#nie-no-machi .project-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/nie-no-machi.jpg) center no-repeat;
+	background-size: contain;
+	}
+
+#fsn-hf-odcd .project-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/fsn-hf-odcd.jpg) center no-repeat;
+	background-size: contain;
+	}
+
+#mahoyoru .project-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/mahoyoru.jpg) center no-repeat;
+	background-size: contain;
+	}
+
+#insaneattic .project-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/insaneattic.jpg) center no-repeat;
+	background-size: contain;
+	}
+
+#tiny-bunny .project-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/tiny-bunny.jpg) center no-repeat;
+	background-size: contain;
+	}
+
+#typemoonyash .project-logo {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/typemoonyash.jpg) center no-repeat;
+	background-size: contain;
+	}
