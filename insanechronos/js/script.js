@@ -27,14 +27,14 @@ if (window.innerHeight > window.innerWidth) {
 		socialLink[i].style.height = "60px";
 		}
 
-	var title = document.getElementsByClassName("project-title");
+	const title = document.getElementsByClassName("project-title");
 	for (var i = 0; i < title.length; i++ )
 		{
 		title[i].style.width = "80%";
 		title[i].style.fontSize = "14px";
 		}
 
-	var card = document.getElementsByClassName("project-card");
+	const card = document.getElementsByClassName("project-card");
 	for (var i = 0; i < card.length; i++ )
 		{
 		card[i].style.width = "75%";
@@ -42,14 +42,20 @@ if (window.innerHeight > window.innerWidth) {
 		/* card[i].style.alignItems = "center"; */
 		}
 
-	var logo = document.getElementsByClassName("project-logo");
+	const logo = document.getElementsByClassName("project-logo");
 	for (var i = 0; i < logo.length; i++ )
 		{
 		logo[i].style.width = "150px";
 		logo[i].style.height = "150px";
 		}
 
-	var link = document.getElementsByClassName("project-link");
+	const infoList = document.querySelectorAll(".project-info ul");
+	for (var i = 0; i < infoList.length; i++ )
+		{
+		infoList[i].style.fontSize = "14px";
+		}
+
+	const link = document.getElementsByClassName("project-link");
 	for (var i = 0; i < link.length; i++ )
 		{
 		link[i].style.width = "100%";
