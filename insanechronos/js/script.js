@@ -38,8 +38,6 @@ if (window.innerHeight > window.innerWidth) {
 	for (var i = 0; i < card.length; i++ )
 		{
 		card[i].style.width = "75%";
-		/* card[i].style.flexDirection = "column"; */
-		/* card[i].style.alignItems = "center"; */
 		}
 
 	const logo = document.getElementsByClassName("project-logo");
@@ -53,17 +51,6 @@ if (window.innerHeight > window.innerWidth) {
 	for (var i = 0; i < infoList.length; i++ )
 		{
 		infoList[i].style.fontSize = "14px";
-		}
-
-	const link = document.getElementsByClassName("project-link");
-	for (var i = 0; i < link.length; i++ )
-		{
-		link[i].style.width = "100%";
-		link[i].style.position = "relative";
-		/* link[i].style.top = "65%"; */
-		/* link[i].style.left = "10%"; */
-		link[i].style.margin = "0";
-		link[i].style.fontSize = "14px";
 		}
 
 	}
