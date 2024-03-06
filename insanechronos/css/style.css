@@ -149,23 +149,29 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #B18840;
 	}
 
 .project-info {
 	width: 400px;
 	min-height: 300px;
-	text-align: left;
+	text-align: center;
+	font-family: Calibri;
+	font-weight: normal;
+	font-size: 18px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	}
 
 .project-info ul {
 	list-style: circle;
-	font-family: Calibri;
-	font-weight: normal;
-	font-size: 18px;
-	margin-top: 0;
+	margin-block-start: 0;
+	margin-block-end: 1em;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+	padding-inline-start: 40px;
 	}
 
 .project-info ul li {
@@ -178,43 +184,56 @@ body {
 	}
 
 .project-info ul li a {
-	color: #B18840;
+	color: #FDE88A;
 	text-decoration: none;
 	}
 
 .project-info ul li a:hover {
-	color: #FDE88A;
+	color: #B18840;
 	}
 
-.project-link {
-	height: 50px;
-	background: linear-gradient(to top, #B18840, #FDE88A);
+.project-links {
 	display: flex;
+	flex-direction: row;
 	justify-content: center;
-	align-items: center;
-	border-radius: 10px;
-	color: #000000;
-	font-family: Calibri;
-	font-size: 18px;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-decoration: none;
-	margin: 0 0 0 15px;
+	padding-inline-start: 40px;
+	gap: .5rem;
 	}
 
-.project-link:hover {
-	background: #FFFFFF;
+.link {
+	width: 50px;
+	height: 50px;
+	clip-path: polygon(50% 0, 50% 0, 100% 50%, 50% 100%, 50% 100%, 0% 50%);
 	}
 
-.arrow {
-	position: relative;
-	left: 10px;
-	transition: .25s;
+.web {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/web-logo.svg) center no-repeat, linear-gradient(to top, #B18840, #FDE88A);
+	background-size: cover;
+}
+
+.web:hover {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/web-logo.svg) center no-repeat #FFFFFF;
+	background-size: cover;
 	}
 
-.project-link:hover .arrow {
-	left: 15px;
-	transition: .25s;
+.vk {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/vk-logo.svg) center no-repeat, linear-gradient(to top, #B18840, #FDE88A);
+	background-size: cover;
+}
+
+.vk:hover {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/vk-logo.svg) center no-repeat #FFFFFF;
+	background-size: cover;
+	}
+
+.tg {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/tg-logo.svg) center no-repeat, linear-gradient(to top, #B18840, #FDE88A);
+	background-size: cover;
+	}
+
+.tg:hover {
+	background: url(https://raw.githubusercontent.com/InsaneChronos/insanechronos.github.io/main/insanechronos/assets/tg-logo.svg) center no-repeat #FFFFFF;
+	background-size: cover;
 	}
 
 #nie-no-machi .project-logo {
