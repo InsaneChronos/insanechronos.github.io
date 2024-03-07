@@ -53,4 +53,10 @@ if (window.innerHeight > window.innerWidth) {
 		infoList[i].style.fontSize = "14px";
 		}
 
+	const links = document.getElementsByClassName("project-links");
+	for (var i = 0; i < links.length; i++ )
+		{
+		links[i].style.width = "75%";
+		}
+
 	}
