@@ -43,8 +43,8 @@ if (window.innerHeight > window.innerWidth) {
 	const logo = document.getElementsByClassName("project-logo");
 	for (var i = 0; i < logo.length; i++ )
 		{
-		logo[i].style.width = "150px";
-		logo[i].style.height = "150px";
+		logo[i].style.width = "100px";
+		logo[i].style.height = "100px";
 		}
 
 	const infoList = document.querySelectorAll(".project-info ul");
@@ -56,7 +56,9 @@ if (window.innerHeight > window.innerWidth) {
 	const links = document.getElementsByClassName("project-links");
 	for (var i = 0; i < links.length; i++ )
 		{
-		links[i].style.width = "75%";
+		links[i].style.marginTop = "0";
+		links[i].style.marginLeft = "40px";
+		links[i].style.gap = "10px";
 		}
 
 	}
