@@ -37,7 +37,7 @@ if (window.innerHeight > window.innerWidth) {
 	const card = document.getElementsByClassName("project-card");
 	for (var i = 0; i < card.length; i++ )
 		{
-		card[i].style.width = "75%";
+		card[i].style.width = "calc(80% - 42px)";
 		}
 
 	const logo = document.getElementsByClassName("project-logo");
