@@ -30,7 +30,7 @@ if (window.innerHeight > window.innerWidth) {
 	const title = document.getElementsByClassName("project-title");
 	for (var i = 0; i < title.length; i++ )
 		{
-		title[i].style.width = "calc(80% - 80px)";
+		title[i].style.width = "calc(80% - 40px)";
 		title[i].style.fontSize = "14px";
 		title[i].style.borderRadius = "10px";
 		}
