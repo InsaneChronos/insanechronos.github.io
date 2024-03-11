@@ -19,8 +19,7 @@ if (window.innerHeight > window.innerWidth) {
 	document.getElementById("logo").style.height = "200px";
 	document.getElementById("logo").style.marginBottom = "20px";
 
-	const social = document.getElementById("social");
-	const socialLink = social.getElementsByTagName("a");
+	const socialLink = document.querySelectorAll("#social a");
 	for (var i = 0; i < socialLink.length; i++ )
 		{
 		socialLink[i].style.width = "60px";
