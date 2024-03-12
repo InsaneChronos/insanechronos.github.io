@@ -1,4 +1,3 @@
-
 window.onload = function () {document.body.style.opacity = "1";}
 
 var swiper = new Swiper(".mySwiper", {
@@ -39,6 +38,7 @@ if (window.innerHeight > window.innerWidth) {
 		{
 		card[i].style.width = "calc(80% - 40px)";
 		card[i].style.border = "0";
+		card[i].style.backdropFilter = "none";
 		}
 
 	const logo = document.getElementsByClassName("project-logo");
