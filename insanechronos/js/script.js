@@ -1,18 +1,6 @@
-/* ------------------------- ПРЕДЗАГРУЗЧИК (НАЧАЛО) ------------------------- */
-
-window.onload = function () {
-
-	const section = document.getElementById("preloader-section");
-
-	setTimeout(function () {section.classList.add("loaded");}, 0);
-	
-	setTimeout(function () {if (section.classList.contains("loaded")) {section.remove();}}, 1000);
-
-	}
-
-/* ------------------------- ПРЕДЗАГРУЗЧИК (КОНЕЦ) ------------------------- */
-
 /* ------------------------- ОБЩЕЕ (НАЧАЛО) ------------------------- */
+
+window.onload = function () {document.body.style.opacity = "1";}
 
 var swiper = new Swiper(".projects", {
 	direction: "vertical",
