@@ -1,6 +1,20 @@
-window.onload = function () {document.body.style.opacity = "1";}
+/* ------------------------- ПРЕДЗАГРУЗЧИК (НАЧАЛО) ------------------------- */
 
-var swiper = new Swiper(".mySwiper", {
+window.onload = function () {
+
+	const section = document.getElementById("preloader-section");
+
+	setTimeout(function () {section.classList.add("loaded");}, 0);
+	
+	setTimeout(function () {if (section.classList.contains("loaded")) {section.remove();}}, 1000);
+
+	}
+
+/* ------------------------- ПРЕДЗАГРУЗЧИК (КОНЕЦ) ------------------------- */
+
+/* ------------------------- ОБЩЕЕ (НАЧАЛО) ------------------------- */
+
+var swiper = new Swiper(".projects", {
 	direction: "vertical",
 	slidesPerView: 1,
 	spaceBetween: 0,
@@ -10,6 +24,10 @@ var swiper = new Swiper(".mySwiper", {
 		clickable: true,
 		},
 	});
+
+/* ------------------------- ОБЩЕЕ (КОНЕЦ) ------------------------- */
+
+/* ------------------------- МОБИЛЬНАЯ ВЕРСИЯ (НАЧАЛО) ------------------------- */
 
 if (window.innerHeight > window.innerWidth) {
 
@@ -38,6 +56,7 @@ if (window.innerHeight > window.innerWidth) {
 		{
 		card[i].style.width = "calc(80% - 40px)";
 		card[i].style.border = "0";
+		card[i].style.padding = "20px 0px 0px 0px";
 		card[i].style.backdropFilter = "none";
 		}
 
@@ -72,3 +91,5 @@ if (window.innerHeight > window.innerWidth) {
 		}
 
 	}
+
+/* ------------------------- МОБИЛЬНАЯ ВЕРСИЯ (КОНЕЦ) ------------------------- */
