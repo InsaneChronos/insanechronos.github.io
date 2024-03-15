@@ -1,3 +1,5 @@
+/* ОБЩЕЕ (НАЧАЛО) */
+
 html, body {
 	position: relative;
 	height: 100%;
@@ -217,6 +219,7 @@ body {
 	}
 
 .project-info ul li::marker {
+	font-family: Calibri;
 	content: "⮞";
 	color: #B18840;
 	}
@@ -331,3 +334,28 @@ body {
 	background-position: center;
 	background-size: contain;
 	}
+
+/* ОБЩЕЕ (КОНЕЦ) */
+
+/* МОБИЛЬНАЯ ВЕРСИЯ (НАЧАЛО) */
+
+@media screen and (max-width: 500px) {
+
+	#cover {
+		justify-content: center;
+		}
+
+	#logo {
+		width: 80%;
+		height: 200px;
+		margin-bottom: 20px;
+		}
+
+	#social a {
+		width: 60px;
+		height: 60px;
+		}
+
+	}
+
+/* МОБИЛЬНАЯ ВЕРСИЯ (КОНЕЦ) */
