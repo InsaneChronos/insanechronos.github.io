@@ -19,18 +19,6 @@ var swiper = new Swiper(".projects", {
 
 if (window.innerHeight > window.innerWidth) {
 
-	document.getElementById("cover").style.justifyContent = "center";
-	document.getElementById("logo").style.width = "80%";
-	document.getElementById("logo").style.height = "200px";
-	document.getElementById("logo").style.marginBottom = "20px";
-
-	const socialLink = document.querySelectorAll("#social a");
-	for (var i = 0; i < socialLink.length; i++ )
-		{
-		socialLink[i].style.width = "60px";
-		socialLink[i].style.height = "60px";
-		}
-
 	const title = document.getElementsByClassName("project-title");
 	for (var i = 0; i < title.length; i++ )
 		{
