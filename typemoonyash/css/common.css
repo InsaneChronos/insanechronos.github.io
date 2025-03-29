@@ -1,0 +1,205 @@
+body {
+	background: #F0F0F0;
+	margin: 0px;
+	font-size: 16px;
+	font-family: Calibri;
+	}
+
+#content {
+	display: flex;
+	flex-direction: row;
+	width: 900px;
+	margin: auto;
+	}
+
+#logo {
+	width: 200px;
+	height: 200px;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/logo.png) center no-repeat;
+	background-size: contain;
+	}
+
+#right {
+	width: 700px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 15px #CCCCCC;
+	}
+
+#page-content {
+	width: 650px;
+	margin: 20px auto 40px auto;
+	}
+
+#page-content p {
+	margin: 20px auto;
+	text-indent: 1em;
+	}
+
+#menu {
+	width: 200px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	}
+
+#menu a {
+	width: 200px;
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: "Akrobat-B";
+	font-size: 16px;
+	color: #7F7F7F;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: bold;
+	gap: 10px;
+	}
+
+#menu a:hover {
+	color: #11245C;
+	background: #F9F9F9;
+	}
+
+#menu a:last-child {
+	border-right: 0px;
+	}
+
+.menu-icon {
+	width: 25px;
+	height: 25px;
+	}
+
+#menu-home .menu-icon {
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/sidenav-home.svg) center no-repeat;
+	}
+
+#menu-works .menu-icon {
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/sidenav-works.svg) center no-repeat;
+	}
+
+#menu-bios .menu-icon {
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/sidenav-bios.svg) center no-repeat;
+	}
+
+#menu-talks .menu-icon {
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/sidenav-talks.svg) center no-repeat;
+	}
+
+#menu-dict .menu-icon {
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/sidenav-dict.svg) center no-repeat;
+	}
+
+#page-title {
+	border-bottom: 1px dashed #CCCCCC;
+	}
+
+#page-title h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90px;
+	margin: auto;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/title-bg.png) top center;
+	text-transform: uppercase;
+    font-family: "Akrobat-B";
+    font-size: 25px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #000000;
+	}
+
+.content-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 30px 0px;
+	}
+
+.content-title h1 {
+	width: fit-content;
+	margin: 0px;
+	padding-bottom: 5px;
+	font-family: "Calibri";
+	color: #000000;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1;
+	border-bottom: 1px solid #000000;
+	position: relative;
+    z-index: 10;
+	}
+
+.content-title::after {
+	content: "";
+	display: block;
+	width: 100%;
+	border-bottom: 1px dashed #CCCCCC;
+	margin: -1px 0px 0px 0px;
+	position: relative;
+	z-index: 0;
+	}
+
+
+
+
+
+#footer {
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+	color: #000000;
+	font-size: 14px;
+	font-weight: normal;
+	border-top: 1px dashed #CCCCCC;
+	}
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) and (orientation: portrait) {
+
+	body {
+		display: none;
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+.category {
+	background: #000;
+	width: 100%;
+	height: 150px;
+	margin: 20px 0;
+	border-radius: 10px;
+	}
+
+
+
+
+
+

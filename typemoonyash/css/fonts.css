@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Capt";
+	src: url("https://insanechronos.github.io/typemoonyash/fonts/Capt.otf") format("opentype");
+	font-style: normal;
+	font-weight: normal;
+	}
+
+@font-face {
+	font-family: "Akrobat-B";
+	src: url("https://insanechronos.github.io/typemoonyash/fonts/Akrobat-B.otf") format("opentype");
+	font-style: normal;
+	font-weight: normal;
+	}
+
+@font-face {
+	font-family: "Calibri";
+	src: url("https://insanechronos.github.io/typemoonyash/fonts/Calibri.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+	}
+
+@font-face {
+	font-family: "Calibri";
+	src: url("https://insanechronos.github.io/typemoonyash/fonts/Calibri-B.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+	}
