@@ -1,0 +1,122 @@
+#specials {
+	width: 100%;
+	display: grid;
+	gap: 20px;
+	}
+
+.special {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+	border: 1px solid #D0D0D0;
+	border-radius: 10px;
+	color: #000000;
+	text-decoration: none;
+	gap: 20px;
+	transition: 0.25s;
+	}
+
+.special:hover {
+	background: #F0F0F0;
+	transition: 0.25s;
+	}
+
+.special:hover .special-cover {
+	opacity: 0.75;
+	transition: 0.25s;
+	}
+
+.special:hover .special-arrow span {
+	margin-left: 20px;
+	transition: 0.25s;
+	}
+
+.special-cover {
+	width: 178px;
+	height: 100px;
+	border-radius: 10px 0px 0px 10px;
+	transition: 0.25s;
+	}
+
+.special-cover img {
+	width: 178px;
+	height: 100px;
+	border-radius: 10px 0px 0px 10px;
+	}
+
+.special-title {
+	display: flex;
+	flex-direction: column;
+	width: 332px;
+	font-family: "Calibri";
+	font-size: 16px;
+	}
+
+.special-date {
+	color: #7F7F7F;
+	}
+
+.special-arrow {
+	width: 100px;
+	height: 100px;
+	border-left: 1px dashed #CCCCCC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+.special-arrow span {
+	width: 30px;
+	height: 30px;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/arrow.svg) center no-repeat;
+	transition: 0.25s;
+	}
+
+#log {
+	margin: 0px;
+	padding-left: 0px;
+	}
+
+#log li {
+	border-bottom: 1px dashed #CCCCCC;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	}
+
+/* --------------- МОБИЛЬНАЯ ВЕРСИЯ --------------- */
+
+@media (max-width: 500px) and (orientation: portrait) {
+
+	.special {
+		gap: 0px;
+		}
+
+	.special-cover {
+		width: 50%;
+		}
+
+	.special-title {
+		width: 50%;
+		margin: 0px 10px;
+		}
+
+	.special-cover img {
+		width: 100%;
+		height: 100px;
+		object-fit: cover;
+		}
+
+	.special-arrow {
+		display: none;
+		}
+
+	#log {
+		padding-left: 17px;
+		}
+
+	}
+
+/* ------------------------------------------------ */
