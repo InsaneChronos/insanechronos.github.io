@@ -144,9 +144,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 90px;
+	height: 70px;
 	margin: auto;
 	background: url(https://insanechronos.github.io/typemoonyash/assets/common/title-bg.png) top center repeat-x;
+	background-size: 10px 70px;
 	text-transform: uppercase;
 	font-family: "Akrobat-B";
 	font-size: 25px;
