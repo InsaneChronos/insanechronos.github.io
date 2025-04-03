@@ -76,14 +76,26 @@
 	}
 
 #log {
-	margin: 0px;
-	padding-left: 0px;
+	list-style-type: square;
+	list-style-position: inside;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	padding-inline-start: 0px;
 	}
 
 #log li {
 	border-bottom: 1px dashed #CCCCCC;
 	padding-bottom: 15px;
 	margin-bottom: 15px;
+	}
+
+#log li:last-child {
+	border-bottom: 0px;
+	}
+
+.log-date {
+	text-transform: uppercase;
+	font-weight: bold;
 	}
 
 /* --------------- МОБИЛЬНАЯ ВЕРСИЯ --------------- */
@@ -111,10 +123,6 @@
 
 	.special-arrow {
 		display: none;
-		}
-
-	#log {
-		padding-left: 17px;
 		}
 
 	}
