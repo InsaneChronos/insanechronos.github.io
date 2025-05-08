@@ -224,17 +224,14 @@ body {
 #footer-social a {
 	width: 30px;
 	height: 30px;
-	border: 1px solid #CCCCCC;
-	}
-
-#footer-social a:hover {
-	border: 1px solid #000000;
+	background: #11245C;
 	}
 
 #footer-social .menu-icon {
 	width: 30px;
 	height: 30px;
-	filter: grayscale(1);
+	filter: brightness(100);
+	border-radius: 100px;
 	}
 
 /* --------------- МОБИЛЬНАЯ ВЕРСИЯ --------------- */
